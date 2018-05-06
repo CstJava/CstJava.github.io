@@ -1,0 +1,143 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+ 	user-select: none;
+}
+
+.index{
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	min-height: 100%;
+	background:white;
+    color: #1f1c1c;
+}
+
+.index:before{
+	content: 'CstJava';
+	position: absolute;
+	width: 50%;
+	height:  10%;
+	top: 5%;
+	right: 0;
+	left: 0;
+	margin: auto;
+	font-size: 40px;
+	color: #4a4a4a;
+	text-align: center;
+}
+
+.index .box{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	transition: all 1s linear;
+	opacity: 0.5;
+}
+
+.index .box .ball{
+	display: none;
+}
+
+.index .box .menu{
+	position: absolute;
+	width: 100%;
+	height: 15%;
+	top: 20%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.index .box .menu .option{
+	float: left;
+	width:30%;
+	height: 100%;
+	font-size: 16px;
+	color: black;
+	cursor: pointer;
+	transition: all 0.5s;
+	text-align: center;
+	margin:5px ;
+}
+
+.index .box .menu .option:after{
+	content: "";
+	float: left;
+	margin: 10%;
+	width: 80%;
+	height: 0;
+	border-bottom: 2px solid white ;
+}
+
+.index .box .menu .option:hover:after{
+	border-bottom: 2px solid black ;
+}
+
+.ifame_box{
+	position: absolute;
+	left:-5%;
+	width:110%;
+	height: 70%;
+	top: 30%;
+}
+
+.infor{
+	position: absolute;
+	left: 0;	
+	right: 0;
+	margin: auto;
+	color: black;
+	display: flex;
+	width: 400px;
+	align-items: center;
+}
+
+.infor li{
+	margin: 15px;
+}
+
+.blog{
+	position: relative;
+	display: flex;
+	flex-flow: column;
+	align-items: center;	
+	color: black;
+}
+
+.blog>div{
+	width: 50%;
+	max-height: 200px;
+	margin: 20px;
+	font-weight: 100;
+}
+
+.blog>div .content{
+	cursor: pointer;
+}
+
+.blog_foot{
+	width: 15% !important;
+	text-align: center;
+	
+}
+
+.friends{
+	position: relative;
+	flex-flow: column;
+	display: flex;
+	align-items: center;	
+}
+
+.friends h1,.friends li,.friends li a{
+	margin: 10px;
+}
