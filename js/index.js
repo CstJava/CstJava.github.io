@@ -88,13 +88,7 @@ window.onload=function(){
 		if(ifame_box_exist){
 			ifame_box.style.width="0px";
 			box.style.left= box_left+"px";
-			ifame_box.style.borderTop="none";
-			ifame_box.style.background="#00000082";
-			ifame_box.style.boxShadow="0 0 10px black";
-			ifame_box.style.top="0";
-			ifame_box.style.margin="50px";
-			ifame_box.style.borderRadius="20px";
-			ifame_box.style.height="530px";
+			ifame_box.style.cssText="borderTop:none;background:#00000082;boxShadow:0 0 10px black;top:0;margin:50px;borderRadius:20px;height:530px";				
 			ifame_box_exist=false;
 			ifame_exchenge=false;
 		}else{
@@ -119,25 +113,11 @@ window.onload=function(){
 		if(ifame.src=="http://blogcst.top/"){}else{
 			if(!ifame_exchenge){
 				box.style.left= "0px";
-				ifame_box.style.borderTop="100px solid rgb(0, 0, 0)";
-				ifame_box.style.background="-webkit-radial-gradient(#0c0c0c,#000000)";
-				ifame_box.style.boxShadow="none";
-				ifame_box.style.width="100%";
-				ifame_box.style.top="100%";
-				ifame_box.style.margin="0";
-				ifame_box.style.borderRadius="0";
-				ifame_box.style.height="1000px";
+				ifame_box.style.cssText="width:100%;borderTop:100px solid rgb(0, 0, 0);background:-webkit-radial-gradient(#0c0c0c,#000000);top:100%;margin:0;borderRadius:0;height:1000px;boxShadow:none";
 				ifame_exchenge=true;
 			}else{
 				box.style.left= box_left+"px";
-				ifame_box.style.borderTop="none";
-				ifame_box.style.background="#00000082";
-				ifame_box.style.boxShadow="0 0 10px black";
-				ifame_box.style.width="600px";
-				ifame_box.style.top="0";
-				ifame_box.style.margin="50px";
-				ifame_box.style.borderRadius="20px";
-				ifame_box.style.height="530px";
+				ifame_box.style.cssText="width:600px;borderTop:none;background:#00000082;top:0;margin:50px;borderRadius:20px;height:530px;box-shadow: 0 0 10px black;";
 				ifame_exchenge=false;
 			}
 
