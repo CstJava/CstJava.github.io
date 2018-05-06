@@ -12,7 +12,6 @@ window.onload=function(){
 	var ifame = document.getElementById('ifame');
 	var ifame_box = document.getElementsByClassName("ifame_box")[0];
 
-	ifame.src="blog.html";
 	box.onmousedown=function(d){
 		var x_before = d.clientX;
 		box.onmouseup=function(u){
