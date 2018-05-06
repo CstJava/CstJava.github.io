@@ -109,7 +109,7 @@ window.onload=function(){
 	}
 
 	box.addEventListener('dblclick',function(){
-		if(ifame.src=="http://blogcst.top/"){}else{
+		if(ifame.src=="https://blogcst.top/"){}else{
 			if(!ifame_exchenge){
 				box.style.left= "0px";
 				ifame_box.style.cssText="width:100%;borderTop:100px solid rgb(0, 0, 0);background:-webkit-radial-gradient(#0c0c0c,#000000);top:100%;margin:0;borderRadius:0;height:1000px;boxShadow:none";
